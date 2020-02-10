@@ -1,4 +1,4 @@
-# Can ML help HR estimate the salary for the new hires, or can it help candidates with salary they should be expecting?
+# Can ML help HR estimate the salary for the new hires, or can it help candidates know salary they should be expecting?
 
 #
 

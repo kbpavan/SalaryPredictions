@@ -147,3 +147,5 @@ The Feature importance of the features in predicting salary is shown below,
 # Conclusion
 
 The key takeaway from this modeling project is that, distance of workplace from metropolis, years of experience and job type are the strongest predictors of salary information. These models can help professionals looking for jobs/Hiring with a rough estimate on salary for the position they are looking/Hiring.
+
+Please check the notebook for details: https://github.com/kbpavan/SalaryPredictions/blob/master/Project__.ipynb

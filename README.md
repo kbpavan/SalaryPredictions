@@ -145,7 +145,19 @@ The Feature importance of the features in predicting salary is shown below,
  ![](images/Feature_Importance.png)
 #
 # Conclusion
+Since job position, years of experience, and location strongly influence salary, a company's finance team might want to consider these factors when allocating budget for new hires. On the other hand, if a company has fixed budget on new hires, they can decide what kind of position to hire for based on how much they have. For instance, if a company has $200k budget, then it can afford to hire a managerial position, instead of a VP.
 
-The key takeaway from this modeling project is that, distance of workplace from metropolis, years of experience and job type are the strongest predictors of salary information. These models can help professionals looking for jobs/Hiring with a rough estimate on salary for the position they are looking/Hiring.
+Salary varies according to the following
+
+- Job position: CEO > CTO & CFO > VP > Manager > Senior > Junior > Janitor
+- Salary increases linearly with years of experience
+- Salary decreases linearly with miles away from city
+- Oil and finance industries are the highest paying, auto, health, and web are average paying, while service and education are the lowest paying.
+
+Based on this information, candidates can also decide the type of industry, location, and position to target to achieve the desired salary. For example, if an entry-level candidate is looking to earn a lot of money, he or she should work in the city in the oil or finance industry. However, living in the city also cost more, and he or she might want to think about where to live (shorter commute to work at the expense of a higher rent vs longer commute but lower rent) depending on priorities.
+
+**Note**
+
+The type of company and economy are important factors to consider when predicting salary but they are not included in the model. A start-up will pay less than a bigger company and salary will be lower during times of economic downturn. While it is important to consider the type of position and industry, we should also keep in mind other variables that are not included in the model.
 
 Please check the notebook for details: https://github.com/kbpavan/SalaryPredictions/blob/master/Project__.ipynb
